@@ -1,0 +1,116 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+body {
+  background: #000217;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.container i {
+  font-size: 30px;
+  border-radius: 50px;
+  margin: 15px;
+  cursor: pointer;
+  padding: 30px;
+}
+
+.container #face {
+  border: 1px solid #3b5999;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  color: #3b5999;
+}
+
+.container #yt {
+  border: 1px solid #cd201f;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  color: #cd201f;
+}
+
+.container #twit {
+  border: 1px solid #55acee;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  color: #55acee;
+}
+
+.container #git {
+  border: 1px solid #eee;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  color: #eee;
+}
+
+.container #insta {
+  border: 1px solid #C13584;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  color: #C13584;
+}
+
+.container #linked {
+  border: 1px solid #2867B2;
+  -webkit-transition: .2s linear;
+  transition: .2s linear;
+  color: #2867B2;
+}
+
+#face:hover {
+  background-image: linear-gradient(315deg, #3b5999 0%, #009ffd 74%);
+  color: #eee;
+  border: linear-gradient(315deg, #3b5999 0%, #009ffd 74%);
+  -webkit-box-shadow: 0 0 0 20px linear-gradient(315deg, #3b5999 0%, #009ffd 74%);
+          box-shadow: 0 0 0 20px linear-gradient(315deg, #3b5999 0%, #009ffd 74%);
+}
+
+#yt:hover {
+  background: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+  color: #eee;
+  border: linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+  -webkit-box-shadow: 0 0 0 20px linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+          box-shadow: 0 0 0 20px linear-gradient(315deg, #3f0d12 0%, #a71d31 74%);
+}
+
+#git:hover {
+  background-image: linear-gradient(147deg, #000000 0%, #060c11 74%);
+  border: linear-gradient(147deg, #000000 0%, #060c11 74%);
+  -webkit-box-shadow: 0 0 0 20px linear-gradient(147deg, #000000 0%, #060c11 74%);
+          box-shadow: 0 0 0 20px linear-gradient(147deg, #000000 0%, #060c11 74%);
+  color: #eee;
+}
+
+#twit:hover {
+  background-image: linear-gradient(315deg, #0e53e7 0%, #55acee 74%);
+  color: #eee;
+  border: linear-gradient(315deg, #0e53e7 0%, #55acee 74%);
+  -webkit-box-shadow: 0 0 0 20px linear-gradient(315deg, #0e53e7 0%, #55acee 74%);
+          box-shadow: 0 0 0 20px linear-gradient(315deg, #0e53e7 0%, #55acee 74%);
+}
+
+#insta:hover {
+  background: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  border: linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  -webkit-box-shadow: 0 0 0 20px linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+          box-shadow: 0 0 0 20px linear-gradient(45deg, #405de6, #5851db, #833ab4, #c13584, #e1306c, #fd1d1d);
+  color: #eee;
+}
+
+#linked:hover {
+  background: linear-gradient(45deg, #1f71d6, #d6caca);
+  border: linear-gradient(45deg, #1f71d6, #d6caca);
+  -webkit-box-shadow: 0 0 0 20px linear-gradient(45deg, #1f71d6, #d6caca);
+          box-shadow: 0 0 0 20px linear-gradient(45deg, #1f71d6, #d6caca);
+  color: #eee;
+}
